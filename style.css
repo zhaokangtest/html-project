@@ -5,14 +5,14 @@ html {
 body, canvas, div {
   display: block;
   outline: none;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 
   user-select: none;
   -moz-user-select: none;
   -webkit-user-select: none;
   -ms-user-select: none;
   -khtml-user-select: none;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 }
 
 /* Remove spin of input type number */
@@ -35,7 +35,7 @@ body {
 
   cursor: default;
   color: #888;
-  background-color: #333;
+  background-color: #ffffff;
 
   text-align: center;
   font-family: Helvetica, Verdana, Arial, sans-serif;
@@ -45,7 +45,7 @@ body {
 }
 
 canvas {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(255, 255, 255, 0);
 }
 
 #GameDiv, #Cocos3dGameContainer, #GameCanvas {
